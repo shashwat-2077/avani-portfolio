@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avani Walture | Designer & Artist Portfolio</title>
+    <meta name="description" content="Portfolio of Avani Walture - Student designer and artist specializing in product design, posters, typography, fashion design, model making, and various art mediums." />
+    
+    <!-- OpenGraph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Avani Walture | Designer & Artist Portfolio" />
+    <meta property="og:description" content="Where Art Meets Purpose - Turning ideas, skills, and perception into stories that connect with people." />
+    <meta property="og:image" content="/images/cover.png" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Avani Walture | Designer & Artist Portfolio" />
+    <meta name="twitter:description" content="Where Art Meets Purpose - Turning ideas, skills, and perception into stories that connect with people." />
+    <meta name="twitter:image" content="/images/cover.png" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Playfair Display (Serif) & Lato (Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cream: '#F8F6F1',
+              sand: '#E8E4DB',
+              charcoal: '#2A2A2A',
+              'charcoal-light': '#5A5A5A',
+              earth: '#9D8B7A',
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'Georgia', 'serif'],
+              sans: ['"Lato"', 'system-ui', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #F8F6F1;
+        color: #2A2A2A;
+      }
+      /* Custom selection color */
+      ::selection {
+        background-color: #9D8B7A;
+        color: white;
+      }
+      /* Smooth image loading */
+      img {
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+      }
+      img[loading] {
+        opacity: 0;
+      }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0"
+  }
+}
+</script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
