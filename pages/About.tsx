@@ -23,9 +23,9 @@ const About: React.FC = () => {
             {/* Decorative frame */}
             <div className="absolute -top-5 -left-5 w-full h-full border border-earth/25 -z-10 hidden md:block"></div>
             
-            <div className="relative overflow-hidden shadow-xl bg-white p-3 md:p-4">
+              <div className="relative overflow-hidden shadow-xl bg-white p-3 md:p-4">
               <img 
-                src="/images/about_me.png" 
+                src="/images/about_me.webp" 
                 alt="Avani Walture - Designer and Artist" 
                 className="w-full h-auto transition-transform duration-700 hover:scale-[1.02]"
               />
@@ -89,7 +89,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="absolute -top-3 -right-3 w-full h-full border border-earth/15 -z-10 hidden md:block"></div>
                 <img 
-                  src="/images/thank_you.png" 
+                  src="/images/thank_you.webp" 
                   alt="Thank You" 
                   className="w-full h-auto shadow-lg"
                 />

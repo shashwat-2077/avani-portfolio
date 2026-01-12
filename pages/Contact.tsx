@@ -104,7 +104,7 @@ const Contact: React.FC = () => {
                 <div className="absolute -top-4 -right-4 w-full h-full border border-earth/20 -z-10 hidden md:block"></div>
                 <div className="bg-white p-3 shadow-lg">
                   <img 
-                    src="/images/thank_you.png" 
+                    src="/images/thank_you.webp" 
                     alt="Thank You - Avani Walture" 
                     className="w-full h-auto"
                   />

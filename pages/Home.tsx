@@ -55,7 +55,7 @@ const Home: React.FC = () => {
               <div className="absolute -top-4 -right-4 w-full h-full border border-earth/30 -z-10 hidden md:block"></div>
               <div className="relative overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/cover.png" 
+                  src="/images/cover.webp" 
                   alt="Portfolio Cover - Avani Walture's Design Work" 
                   className="w-full h-auto object-cover transition-transform duration-[1.5s] hover:scale-105"
                 />
@@ -132,7 +132,7 @@ const Home: React.FC = () => {
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-full h-full border border-earth/20 -z-10 hidden md:block"></div>
                 <img 
-                  src="/images/contents.png" 
+                  src="/images/contents.webp" 
                   alt="Portfolio Contents Overview" 
                   className="w-full h-auto shadow-lg"
                 />

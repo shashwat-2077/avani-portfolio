@@ -24,19 +24,19 @@ An artistic, high-end portfolio website showcasing the design and art work of Av
 │   ├── About.tsx         # About page with bio
 │   └── Contact.tsx       # Contact information
 ├── public/images/        # All provided images (ONLY these used)
-│   ├── cover.png
-│   ├── about_me.png
-│   ├── contents.png
-│   ├── product_*.png
-│   ├── communication_*.png
-│   ├── typography_*.png
-│   ├── posters_overview.png
-│   ├── fashion_*.png
-│   ├── model_making.png
-│   ├── different_art_mediums.png
-│   ├── mixed_work_collage.png
-│   ├── rough_sketches_*.png
-│   └── thank_you.png
+│   ├── cover.webp
+│   ├── about_me.webp
+│   ├── contents.webp
+│   ├── product_*.webp
+│   ├── communication_*.webp
+│   ├── typography_*.webp
+│   ├── posters_overview.webp
+│   ├── fashion_*.webp
+│   ├── model_making.webp
+│   ├── different_art_mediums.webp
+│   ├── mixed_work_collage.webp
+│   ├── rough_sketches_*.webp
+│   └── thank_you.webp
 └── App.tsx               # Main app with routing
 ```
 
