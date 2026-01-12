@@ -23,7 +23,7 @@ An artistic, high-end portfolio website showcasing the design and art work of Av
 │   ├── ProjectDetail.tsx # Individual project view
 │   ├── About.tsx         # About page with bio
 │   └── Contact.tsx       # Contact information
-├── images/               # All provided images (ONLY these used)
+├── public/images/        # All provided images (ONLY these used)
 │   ├── cover.png
 │   ├── about_me.png
 │   ├── contents.png
